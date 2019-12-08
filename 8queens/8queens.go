@@ -49,10 +49,10 @@ func printQ(q [8]int) {
 	for i := 0; i < 8; i++ {
 		for j := 0; j < 8; j++ {
 			if j == q[i] {
-				fmt.Print("q")
+				fmt.Print("q ")
 				continue
 			}
-			fmt.Print("*")
+			fmt.Print("* ")
 		}
 
 		fmt.Println()
