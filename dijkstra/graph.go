@@ -22,5 +22,3 @@ func (g *graph) addEdge(s string, t string, w int) {
 		g.obj[s] = []edge{e}
 	}
 }
-
-type shortest Item
