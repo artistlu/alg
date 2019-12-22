@@ -35,7 +35,7 @@ func mmerge(a []int, s, m, e int) {
 	j := m + 1
 	k := 0
 	for i <= m && j <= e {
-		if a[i] < a[j] {
+		if a[i] <= a[j] {
 			t[k] = a[i]
 			i++
 		} else {
